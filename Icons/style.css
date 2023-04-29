@@ -1,0 +1,52 @@
+h1{
+    background-color:#0000ff;
+    color:#f0f8ff;
+    padding-right: 100px;
+ }
+*{
+    border:solid
+}
+
+.header{
+background-color:#f5dea3;
+display: flex;
+justify-content:space-between;
+}
+.games{
+    background-color:#fffcfc;
+    margin:100px;
+    position:relative;
+    
+}
+.games p{
+    opacity:0;
+   
+}
+.games:hover p{
+    opacity:1;
+}
+
+.games img{
+    opacity:0.33;
+}
+
+.games:hover img{
+    opacity:1;
+}
+.footer{
+    background: color #faebd7;
+
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom:100px;
+    transform: translate(-73%,90%);
+}
+
+
+
+a:link{
+    color:white;
+}
+a:visited{
+    color:black;
+}
